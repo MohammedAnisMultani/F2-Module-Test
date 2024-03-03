@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 100vh;
+}
+
+
+
+.error{
+   color: red;
+}
+
+.success{
+    color: green;
+}
+#editing{
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg);
+    box-shadow: 1px 1px 40px gray;
+    border-radius: 10px;
+   /* border: 1px solid black; */
+
+   padding: 20px;
+
+}
+
+.improve{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+.btn{
+    width:100px;
+    height: 30px;
+    font-size: larger;
+    background-color: rgb(114, 114, 234);
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.btn:hover{
+    background-color: green;
+}
